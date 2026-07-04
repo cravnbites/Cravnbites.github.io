@@ -63,19 +63,70 @@
         <div class="hero-container">
             <!-- Left Side Content -->
             <div class="hero-content">
-                <h1 class="hero-title">Handcrafted<br>Pistachio Kunafa<br>Chocolates</h1>
-                <p class="hero-subtitle">Every piece is made with passion, delivering warmth, freshness, and sweetness in every bite.</p>
+                <h1 class="hero-title">
+                    <span class="hero-title-highlight">Cravnbites</span>
+                    <span class="hero-title-primary">Home made Chocolates.</span>
+                </h1>
+                <p class="hero-subtitle">Fast delivery. Fresh sweetness. Happy moments. Cravnbites brings your favorite chocolates straight to your door.</p>
                 
                 <div class="hero-actions">
-                    <a href="#" class="btn-outline">ORDER NOW</a>
-                    <a href="#" class="btn-olive">CONTACT</a>
+                    <a href="#" class="btn-hero-solid">ORDER NOW</a>
+                    <a href="products.html" class="btn-hero-outline">SEE PRODUCTS</a>
+                </div>
+                
+                <!-- Hero Social & Contact Info -->
+                <div class="hero-contact-info">
+                    <div class="hero-social-icons">
+                        <a href="#" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:Cravnbites.homemades@gmail.com" aria-label="Email">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Location">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <span class="hero-phone-number">+91 949 5661 866</span>
                 </div>
             </div>
 
-            <!-- Right Side Image Graphic -->
+            <!-- Right Side Circular Orbit Graphic -->
             <div class="hero-graphic">
-                <!-- Crop of the vertical box and bars -->
-                <img src="assets/your-product-image.png" alt="Chocobites Pistachio Kunafa Chocolate Box and Bars" class="product-img">
+                <div class="hero-graphic-orbit">
+                    <!-- Location Pin Badge floating top-right -->
+                    <div class="location-badge">
+                        <svg class="badge-pin-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>Bangalore,street no:03</span>
+                    </div>
+                    
+                    <!-- Circular Orbit Ring with 4 axis dots -->
+                    <div class="orbit-ring">
+                        <span class="orbit-dot dot-top"></span>
+                        <span class="orbit-dot dot-right"></span>
+                        <span class="orbit-dot dot-bottom"></span>
+                        <span class="orbit-dot dot-left"></span>
+                    </div>
+                    
+                    <!-- Center plate image -->
+                    <img src="assets/hero-plate.png" alt="Gourmet handcrafted chocolates on round plate" class="hero-plate-img">
+                </div>
             </div>
         </div>
 
@@ -111,122 +162,116 @@
     </section>
 
     <!-- Our Products Section -->
-    <section class="products">
+    <section id="products" class="products">
         <div class="products-header">
             <h2 class="products-title">Our Products</h2>
         </div>
         
         <div class="products-container">
-            <!-- Left Banner Card (Video) -->
-            <div class="products-banner">
-                <video class="banner-video" autoplay loop muted playsinline>
-                    <source src="assets/about-video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-
-            <!-- Right Products Grid -->
+            <!-- Products Grid -->
             <div class="products-grid">
                 <!-- Card 1 -->
                 <div class="product-card">
                     <div class="product-card-img-box">
-                        <img src="assets/ch.jpg" alt="Choco muesli package" class="card-item-img">
+                        <img src="assets/ch.jpg" alt="Pistachio Kunafa Classic Choco" class="card-item-img">
                     </div>
-                    <h3 class="product-card-title">Choco muesli</h3>
-                    <span class="product-card-weight">110g</span>
-                    <div class="product-card-price">
-                        <span class="old-price">799 $</span>
-                        <svg class="price-icon" viewBox="0 0 24 24" width="14" height="14">
-                            <path fill="#999999" d="M17,8C8,10 5.9,16.17 3.82,21.34L2.18,20.66C4.26,15.49 6.36,9.33 15.36,7.33C17.36,6.89 19,7 21,9C20,13 18,17 14,20C12,21.5 10,21.5 8,20.5C9.5,19 11.5,18 13.5,16.5C15.5,15 16.5,13 17.5,10.5C16.5,11 15,11.5 13.5,11.5C9.5,11.5 7,9 7,5C7,3 8.5,2 10.5,2C12.5,2 14.5,3 15.5,4.5C16.5,6 17,7 17,8Z"/>
-                        </svg>
-                        <span class="new-price">749</span>
+                    <h3 class="product-card-title">Pistachio Kunafa Classic Choco</h3>
+                    <p class="product-card-desc">Crispy toasted kunafa pastry blended with creamy pistachio butter, encased in rich dark chocolate.</p>
+                    <div class="product-card-footer">
+                        <span class="product-card-price">₹ 249</span>
+                        <a href="https://wa.me/919495661866" class="btn-card-order">ORDER NOW</a>
                     </div>
-                    <a href="#" class="btn-card-order">ORDER NOW</a>
                 </div>
 
                 <!-- Card 2 -->
                 <div class="product-card">
                     <div class="product-card-img-box">
-                        <img src="assets/ch.jpg" alt="Choco muesli package" class="card-item-img">
+                        <img src="assets/p1.png" alt="Pistachio Kunafa Royal White" class="card-item-img">
                     </div>
-                    <h3 class="product-card-title">Choco muesli</h3>
-                    <span class="product-card-weight">110g</span>
-                    <div class="product-card-price">
-                        <span class="old-price">799 $</span>
-                        <svg class="price-icon" viewBox="0 0 24 24" width="14" height="14">
-                            <path fill="#999999" d="M17,8C8,10 5.9,16.17 3.82,21.34L2.18,20.66C4.26,15.49 6.36,9.33 15.36,7.33C17.36,6.89 19,7 21,9C20,13 18,17 14,20C12,21.5 10,21.5 8,20.5C9.5,19 11.5,18 13.5,16.5C15.5,15 16.5,13 17.5,10.5C16.5,11 15,11.5 13.5,11.5C9.5,11.5 7,9 7,5C7,3 8.5,2 10.5,2C12.5,2 14.5,3 15.5,4.5C16.5,6 17,7 17,8Z"/>
-                        </svg>
-                        <span class="new-price">749</span>
+                    <h3 class="product-card-title">Pistachio Kunafa Royal White</h3>
+                    <p class="product-card-desc">Decadent sweet pistachio paste and golden crispy kunafa wrapped in a premium white chocolate shell.</p>
+                    <div class="product-card-footer">
+                        <span class="product-card-price">₹ 249</span>
+                        <a href="https://wa.me/919495661866" class="btn-card-order">ORDER NOW</a>
                     </div>
-                    <a href="#" class="btn-card-order">ORDER NOW</a>
                 </div>
 
                 <!-- Card 3 -->
                 <div class="product-card">
                     <div class="product-card-img-box">
-                        <img src="assets/ch.jpg" alt="Choco muesli package" class="card-item-img">
+                        <img src="assets/product-item.png" alt="Kunafa Bites Dark Delight" class="card-item-img">
                     </div>
-                    <h3 class="product-card-title">Choco muesli</h3>
-                    <span class="product-card-weight">110g</span>
-                    <div class="product-card-price">
-                        <span class="old-price">799 $</span>
-                        <svg class="price-icon" viewBox="0 0 24 24" width="14" height="14">
-                            <path fill="#999999" d="M17,8C8,10 5.9,16.17 3.82,21.34L2.18,20.66C4.26,15.49 6.36,9.33 15.36,7.33C17.36,6.89 19,7 21,9C20,13 18,17 14,20C12,21.5 10,21.5 8,20.5C9.5,19 11.5,18 13.5,16.5C15.5,15 16.5,13 17.5,10.5C16.5,11 15,11.5 13.5,11.5C9.5,11.5 7,9 7,5C7,3 8.5,2 10.5,2C12.5,2 14.5,3 15.5,4.5C16.5,6 17,7 17,8Z"/>
-                        </svg>
-                        <span class="new-price">749</span>
+                    <h3 class="product-card-title">Kunafa Bites Dark Delight</h3>
+                    <p class="product-card-desc">Bite-sized hazelnut chocolate shells packed with crunchy kunafa shreds and authentic pistachio filling.</p>
+                    <div class="product-card-footer">
+                        <span class="product-card-price">₹ 180</span>
+                        <a href="https://wa.me/919495661866" class="btn-card-order">ORDER NOW</a>
                     </div>
-                    <a href="#" class="btn-card-order">ORDER NOW</a>
                 </div>
 
                 <!-- Card 4 -->
                 <div class="product-card">
                     <div class="product-card-img-box">
-                        <img src="assets/ch.jpg" alt="Choco muesli package" class="card-item-img">
+                        <img src="assets/product-image.png" alt="Kunafa Bites White Dream" class="card-item-img">
                     </div>
-                    <h3 class="product-card-title">Choco muesli</h3>
-                    <span class="product-card-weight">110g</span>
-                    <div class="product-card-price">
-                        <span class="old-price">799 $</span>
-                        <svg class="price-icon" viewBox="0 0 24 24" width="14" height="14">
-                            <path fill="#999999" d="M17,8C8,10 5.9,16.17 3.82,21.34L2.18,20.66C4.26,15.49 6.36,9.33 15.36,7.33C17.36,6.89 19,7 21,9C20,13 18,17 14,20C12,21.5 10,21.5 8,20.5C9.5,19 11.5,18 13.5,16.5C15.5,15 16.5,13 17.5,10.5C16.5,11 15,11.5 13.5,11.5C9.5,11.5 7,9 7,5C7,3 8.5,2 10.5,2C12.5,2 14.5,3 15.5,4.5C16.5,6 17,7 17,8Z"/>
-                        </svg>
-                        <span class="new-price">749</span>
+                    <h3 class="product-card-title">Kunafa Bites White Dream</h3>
+                    <p class="product-card-desc">White chocolate mini-bites filled with pistachio butter and aromatic toasted kunafa crunch.</p>
+                    <div class="product-card-footer">
+                        <span class="product-card-price">₹ 180</span>
+                        <a href="https://wa.me/919495661866" class="btn-card-order">ORDER NOW</a>
                     </div>
-                    <a href="#" class="btn-card-order">ORDER NOW</a>
                 </div>
 
                 <!-- Card 5 -->
                 <div class="product-card">
                     <div class="product-card-img-box">
-                        <img src="assets/ch.jpg" alt="Choco muesli package" class="card-item-img">
+                        <img src="assets/your-product-image.png" alt="Biscoff Kunafa Classic" class="card-item-img">
                     </div>
-                    <h3 class="product-card-title">Choco muesli</h3>
-                    <span class="product-card-weight">110g</span>
-                    <div class="product-card-price">
-                        <span class="old-price">799 $</span>
-                        <svg class="price-icon" viewBox="0 0 24 24" width="14" height="14">
-                            <path fill="#999999" d="M17,8C8,10 5.9,16.17 3.82,21.34L2.18,20.66C4.26,15.49 6.36,9.33 15.36,7.33C17.36,6.89 19,7 21,9C20,13 18,17 14,20C12,21.5 10,21.5 8,20.5C9.5,19 11.5,18 13.5,16.5C15.5,15 16.5,13 17.5,10.5C16.5,11 15,11.5 13.5,11.5C9.5,11.5 7,9 7,5C7,3 8.5,2 10.5,2C12.5,2 14.5,3 15.5,4.5C16.5,6 17,7 17,8Z"/>
-                        </svg>
-                        <span class="new-price">749</span>
+                    <h3 class="product-card-title">Biscoff Kunafa Classic</h3>
+                    <p class="product-card-desc">Toasted golden kunafa shreds mixed with Lotus Biscoff spread, draped in velvety milk chocolate.</p>
+                    <div class="product-card-footer">
+                        <span class="product-card-price">₹ 299</span>
+                        <a href="https://wa.me/919495661866" class="btn-card-order">ORDER NOW</a>
                     </div>
-                    <a href="#" class="btn-card-order">ORDER NOW</a>
                 </div>
 
                 <!-- Card 6 -->
                 <div class="product-card">
                     <div class="product-card-img-box">
-                        <img src="assets/ch.jpg" alt="Choco muesli package" class="card-item-img">
+                        <img src="assets/hero-plate.png" alt="Choco Muesli Bar" class="card-item-img">
                     </div>
-                    <h3 class="product-card-title">Choco muesle</h3>
-                    <span class="product-card-weight">110g</span>
-                    <div class="product-card-price">
-                        <span class="old-price">799 $</span>
-                        <svg class="price-icon" viewBox="0 0 24 24" width="14" height="14">
-                            <path fill="#999999" d="M17,8C8,10 5.9,16.17 3.82,21.34L2.18,20.66C4.26,15.49 6.36,9.33 15.36,7.33C17.36,6.89 19,7 21,9C20,13 18,17 14,20C12,21.5 10,21.5 8,20.5C9.5,19 11.5,18 13.5,16.5C15.5,15 16.5,13 17.5,10.5C16.5,11 15,11.5 13.5,11.5C9.5,11.5 7,9 7,5C7,3 8.5,2 10.5,2C12.5,2 14.5,3 15.5,4.5C16.5,6 17,7 17,8Z"/>
-                        </svg>
-                        <span class="new-price">749</span>
+                    <h3 class="product-card-title">Choco Muesli Bar</h3>
+                    <p class="product-card-desc">Healthy crunchy roasted oats and chocolate bites loaded with hazelnuts, pistachios, and dried fruits.</p>
+                    <div class="product-card-footer">
+                        <span class="product-card-price">₹ 150</span>
+                        <a href="https://wa.me/919495661866" class="btn-card-order">ORDER NOW</a>
                     </div>
-                    <a href="#" class="btn-card-order">ORDER NOW</a>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="product-card">
+                    <div class="product-card-img-box">
+                        <img src="assets/product-item.png" alt="Biscoff Kunafa Royal White" class="card-item-img">
+                    </div>
+                    <h3 class="product-card-title">Biscoff Kunafa Royal White</h3>
+                    <p class="product-card-desc">Premium white chocolate paired with caramelized Lotus Biscoff spread and crispy toasted kunafa.</p>
+                    <div class="product-card-footer">
+                        <span class="product-card-price">₹ 259</span>
+                        <a href="https://wa.me/919495661866" class="btn-card-order">ORDER NOW</a>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="product-card">
+                    <div class="product-card-img-box">
+                        <img src="assets/ch.jpg" alt="Choco Muesli Dark" class="card-item-img">
+                    </div>
+                    <h3 class="product-card-title">Choco Muesli Dark</h3>
+                    <p class="product-card-desc">Rich dark chocolate bar loaded with crunchy oats, roasted almonds, pistachios, and dried berries.</p>
+                    <div class="product-card-footer">
+                        <span class="product-card-price">₹ 160</span>
+                        <a href="https://wa.me/919495661866" class="btn-card-order">ORDER NOW</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -237,13 +282,115 @@
         </div>
     </section>
 
+    <!-- Order Steps Section -->
+    <section class="order-steps">
+        <div class="steps-container">
+            <h2 class="steps-title">Three steps to your door</h2>
+            
+            <div class="steps-grid">
+                <!-- Step 1 -->
+                <div class="step-item step-one">
+                    <div class="step-icon-box">
+                        <svg viewBox="0 0 200 200" width="130" height="130" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Background shadow/glow -->
+                            <circle cx="100" cy="100" r="85" fill="rgba(62, 89, 27, 0.03)"/>
+                            <!-- Smartphone -->
+                            <rect x="55" y="30" width="65" height="110" rx="12" stroke="#61210b" stroke-width="4.5" fill="#ffffff"/>
+                            <line x1="78" y1="40" x2="98" y2="40" stroke="#61210b" stroke-width="3" stroke-linecap="round"/>
+                            <circle cx="88" cy="130" r="5" fill="#61210b"/>
+                            <!-- Chocolate inside screen -->
+                            <rect x="70" y="55" width="35" height="55" rx="4" fill="#96310c" opacity="0.15"/>
+                            <rect x="75" y="60" width="25" height="20" rx="2" fill="#61210b"/>
+                            <rect x="75" y="85" width="25" height="20" rx="2" fill="#96310c"/>
+                            <!-- Magnifying Glass -->
+                            <circle cx="115" cy="85" r="32" stroke="#3e591b" stroke-width="4.5" fill="#ffffff" fill-opacity="0.9"/>
+                            <!-- Chocolate bar highlight inside magnifying glass -->
+                            <rect x="103" y="73" width="24" height="24" rx="2" fill="#61210b"/>
+                            <!-- Magnifying glass handle -->
+                            <line x1="138" y1="108" x2="162" y2="132" stroke="#96310c" stroke-width="6" stroke-linecap="round"/>
+                            <line x1="138" y1="108" x2="162" y2="132" stroke="#61210b" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-item-title">Choose your food</h3>
+                    <p class="step-item-desc">Browse a variety of delicious meals and pick your favorite dish with ease.</p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="step-item step-two">
+                    <div class="step-icon-box">
+                        <svg viewBox="0 0 200 200" width="130" height="130" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="85" fill="rgba(150, 49, 12, 0.03)"/>
+                            <!-- Smartphone held in hand -->
+                            <rect x="75" y="30" width="55" height="95" rx="10" stroke="#61210b" stroke-width="4" fill="#ffffff"/>
+                            <line x1="93" y1="38" x2="112" y2="38" stroke="#61210b" stroke-width="2.5" stroke-linecap="round"/>
+                            <circle cx="102.5" cy="115" r="4" fill="#61210b"/>
+                            <!-- Screen content: parcel box -->
+                            <rect x="87" y="52" width="31" height="31" rx="4" fill="#e5a93b" stroke="#61210b" stroke-width="2.5"/>
+                            <line x1="87" y1="67.5" x2="118" y2="67.5" stroke="#61210b" stroke-width="2"/>
+                            <line x1="102.5" y1="52" x2="102.5" y2="83" stroke="#61210b" stroke-width="2"/>
+                            <!-- Tap Button on screen -->
+                            <rect x="88" y="90" width="29" height="12" rx="4" fill="#96310c"/>
+                            <!-- Hand holding phone -->
+                            <path d="M45,130 C45,115 58,95 73,95 L75,95 L75,115 L60,135 Z" fill="#61210b" opacity="0.75"/>
+                            <path d="M125,75 L145,80 C150,82 153,88 150,93 L130,125" stroke="#61210b" stroke-width="4.5" stroke-linecap="round"/>
+                            <!-- Finger pointing/tapping -->
+                            <path d="M142,125 L120,105 C116,101 110,101 106,105 L106,105 C102,109 102,115 106,119 L128,140" stroke="#3e591b" stroke-width="4.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-item-title">Place your order</h3>
+                    <p class="step-item-desc">Order in just a few taps with a simple and hassle-free checkout process.</p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="step-item step-three">
+                    <div class="step-icon-box">
+                        <svg viewBox="0 0 200 200" width="130" height="130" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="85" fill="rgba(62, 89, 27, 0.03)"/>
+                            <!-- Delivery runner silhouette/cartoon -->
+                            <!-- Legs running -->
+                            <path d="M75,135 L60,150 L45,145" stroke="#61210b" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M100,135 L115,155 L135,150" stroke="#61210b" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <!-- Torso -->
+                            <path d="M75,100 L95,105 L90,135 L70,130 Z" fill="#96310c"/>
+                            <!-- Arms carrying box -->
+                            <path d="M85,108 L110,108 L115,95" stroke="#61210b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M70,110 L90,120 L105,115" stroke="#61210b" stroke-width="4" stroke-linecap="round"/>
+                            <!-- Box -->
+                            <rect x="110" y="85" width="40" height="30" rx="3" fill="#e5a93b" stroke="#61210b" stroke-width="2.5"/>
+                            <line x1="110" y1="100" x2="150" y2="100" stroke="#61210b" stroke-width="1.5"/>
+                            <!-- Head and Cap -->
+                            <circle cx="95" cy="80" r="14" fill="#e5a93b"/>
+                            <path d="M82,75 C82,65 92,62 105,65 L118,68 L118,74 L105,74 Z" fill="#3e591b"/> <!-- Cap -->
+                            <circle cx="102" cy="78" r="2" fill="#61210b"/> <!-- Eye -->
+                            <!-- Motion lines -->
+                            <line x1="30" y1="90" x2="50" y2="90" stroke="#3e591b" stroke-width="3" stroke-linecap="round"/>
+                            <line x1="25" y1="105" x2="40" y2="105" stroke="#96310c" stroke-width="3" stroke-linecap="round"/>
+                            <line x1="35" y1="120" x2="55" y2="120" stroke="#61210b" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-item-title">Get your food</h3>
+                    <p class="step-item-desc">Get your food delivered fresh and hot to your doorstep in as little as 30 minutes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Story Video Section -->
     <section class="story-video">
-        <div class="story-video-container">
-            <video class="story-video-player" controls autoplay loop muted playsinline>
-                <source src="assets/about-video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <div class="story-container">
+            <!-- Left Side: Heading and Paragraph Description -->
+            <div class="story-text">
+                <h2 class="story-title">Our Success Story</h2>
+                <p class="story-desc-para">Every Cravnbites chocolate is crafted with happiness, trust, and love by our dedicated team of local artisans. We believe that true sweetness begins with a happy workplace, and we pour that passion, respect, and care into every recipe, ensuring each bite brings joy and pure delight to your doorstep.</p>
+            </div>
+            
+            <!-- Right Side: Promo Video Player -->
+            <div class="story-video-container">
+                <video class="story-video-player" controls autoplay loop muted playsinline>
+                    <source src="assets/cravnbites.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
     </section>
 
@@ -449,6 +596,14 @@
         toggleBtn.addEventListener('click', () => {
             navMenu.classList.toggle('active');
             toggleBtn.classList.toggle('active');
+        });
+
+        // Close menu when clicking nav link
+        document.querySelectorAll('.nav-link, .dropdown-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                toggleBtn.classList.remove('active');
+            });
         });
 
         // Add scrolled class to navbar on scroll
