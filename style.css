@@ -642,7 +642,7 @@ body {
     object-fit: cover;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .story-container {
         grid-template-columns: 1fr 1.1fr; /* Two part of one row */
         gap: 4rem;
@@ -898,7 +898,7 @@ body {
 
 .products-page-content {
     background-color: #ffffff; /* White background as shown in the design */
-    padding: 3.5rem 0 5rem 0; /* Compacted space */
+    padding: 9rem 0 6rem 0; /* Creates breathing space under fixed header on desktop */
 }
 
 .products-page-title {
@@ -1392,13 +1392,22 @@ body {
     }
 
     .hero-container {
-        grid-template-columns: 1.1fr 0.9fr;
-        gap: 3rem;
+        grid-template-columns: 1fr;
+        gap: 3.5rem;
+        text-align: center;
+    }
+
+    .hero-actions {
+        justify-content: center;
+    }
+
+    .hero-contact-info {
+        justify-content: center;
     }
 
     .hero-graphic-orbit {
-        width: 360px;
-        height: 360px;
+        width: 320px;
+        height: 320px;
     }
 
     .location-badge {
@@ -1422,23 +1431,29 @@ body {
     .dot-right { right: -7px; }
 
     .about {
-        padding: 5.5rem 0 10rem 0;
+        padding: 5.5rem 0 7rem 0;
     }
 
     .about-container {
-        grid-template-columns: 1.1fr 0.9fr;
-        gap: 3rem;
+        grid-template-columns: 1fr;
+        gap: 3.5rem;
+    }
+
+    .about-text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .about-img {
-        max-height: 480px;
+        max-height: 380px;
+        margin: 0 auto;
     }
 
     .products {
         padding: 5.5rem 0;
     }
-
-
 
     .products-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -1468,6 +1483,44 @@ body {
 
     .reviews-page-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Landscape Tablets & Desktop Screens (Trigger side-by-side grid columns) */
+@media (min-width: 992px) {
+    .hero-container {
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 3rem;
+        text-align: left;
+    }
+
+    .hero-actions {
+        justify-content: flex-start;
+    }
+
+    .hero-contact-info {
+        justify-content: flex-start;
+    }
+
+    .hero-graphic-orbit {
+        width: 360px;
+        height: 360px;
+    }
+
+    .about-container {
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 3.5rem;
+        text-align: left;
+    }
+
+    .about-text-content {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .about-img {
+        max-height: 480px;
+        margin: 0;
     }
 }
 
@@ -1642,6 +1695,10 @@ body {
     
     .footer {
         padding: 4.5rem 0 2rem 0;
+    }
+
+    .products-page-content {
+        padding: 6.5rem 0 4rem 0; /* Breathing space under fixed header on mobile */
     }
 
     /* Column spacing container tunings */
